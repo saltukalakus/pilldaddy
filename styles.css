@@ -442,6 +442,8 @@ header {
 .footer-center {
     flex: 1;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -573,5 +575,130 @@ header {
     
     .btn {
         width: 100%;
+    }
+}
+
+/* Terms of Service and Privacy Policy Pages */
+.terms-content {
+    padding: 120px 0 80px;
+    background: var(--bg-light);
+}
+
+.terms-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.terms-updated {
+    font-size: 16px;
+    color: var(--text-light);
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.terms-section {
+    background: var(--bg-white);
+    padding: 32px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.terms-section h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 16px;
+}
+
+.terms-section h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.terms-section p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+    color: var(--text-dark);
+}
+
+.terms-section ul {
+    margin-left: 24px;
+    margin-bottom: 16px;
+}
+
+.terms-section li {
+    margin-bottom: 8px;
+    line-height: 1.8;
+}
+
+.terms-section strong {
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+.terms-section a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.terms-section a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+.terms-acknowledgment {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 32px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.terms-acknowledgment p {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.footer-links {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .terms-content {
+        padding: 100px 0 60px;
+    }
+    
+    .terms-title {
+        font-size: 32px;
+    }
+    
+    .terms-section {
+        padding: 24px;
+    }
+    
+    .terms-section h2 {
+        font-size: 24px;
     }
 }
