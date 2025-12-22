@@ -65,7 +65,7 @@ header {
     gap: 8px;
     font-size: 24px;
     font-weight: 700;
-    color: var(--primary-color);
+    color: #166534;
 }
 
 .pill-icon {
@@ -86,13 +86,13 @@ header {
 }
 
 .nav-links a:hover {
-    color: var(--primary-color);
+    color: #166534;
 }
 
 /* Hero Section */
 .hero {
     padding: 140px 0 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #166534 0%, #14532d 100%);
     position: relative;
     overflow: hidden;
 }
@@ -160,7 +160,7 @@ header {
 
 .btn-primary {
     background: white;
-    color: var(--primary-color);
+    color: #166534;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
 }
 
@@ -401,7 +401,7 @@ header {
 .step-number {
     width: 80px;
     height: 80px;
-    background: var(--gradient-1);
+    background: linear-gradient(135deg, #166534 0%, #14532d 100%);
     color: white;
     border-radius: 50%;
     display: flex;
@@ -410,7 +410,7 @@ header {
     font-size: 32px;
     font-weight: 700;
     margin: 0 auto 24px;
-    box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 8px 16px rgba(22, 101, 52, 0.3);
 }
 
 .step h3 {
@@ -428,7 +428,7 @@ header {
 /* Download Section */
 .download {
     padding: 100px 0;
-    background: var(--gradient-1);
+    background: linear-gradient(135deg, #166534 0%, #14532d 100%);
     color: white;
     text-align: center;
 }
@@ -718,7 +718,7 @@ header {
 }
 
 .terms-acknowledgment {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #166534 0%, #14532d 100%);
     color: white;
     padding: 32px;
     border-radius: 12px;
