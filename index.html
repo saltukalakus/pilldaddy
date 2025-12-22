@@ -47,27 +47,40 @@
                 </div>
             </div>
             <div class="hero-image">
-                <div class="phone-mockup">
-                    <div class="phone-screen">
-                        <div class="app-preview">
-                            <div class="preview-header">
-                                <span>Today's Schedule</span>
-                            </div>
-                            <div class="preview-pills">
-                                <div class="pill-item">
-                                    <div class="pill-dot"></div>
-                                    <span>Aspirin - 8:00 AM</span>
-                                </div>
-                                <div class="pill-item">
-                                    <div class="pill-dot"></div>
-                                    <span>Vitamin D - 12:00 PM</span>
-                                </div>
-                                <div class="pill-item">
-                                    <div class="pill-dot"></div>
-                                    <span>Omega-3 - 6:00 PM</span>
-                                </div>
-                            </div>
+                <div class="carousel-container">
+                    <div class="carousel-wrapper">
+                        <div class="carousel-slide active">
+                            <img src="picture-1.png" alt="PillReminder App Screenshot 1">
                         </div>
+                        <div class="carousel-slide">
+                            <img src="picture-2.png" alt="PillReminder App Screenshot 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="picture-3.png" alt="PillReminder App Screenshot 3">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="picture-4.png" alt="PillReminder App Screenshot 4">
+                        </div>
+                    </div>
+                    
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control prev" aria-label="Previous slide">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+                    <button class="carousel-control next" aria-label="Next slide">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                    
+                    <!-- Carousel Indicators -->
+                    <div class="carousel-indicators">
+                        <button class="indicator active" data-slide="0" aria-label="Go to slide 1"></button>
+                        <button class="indicator" data-slide="1" aria-label="Go to slide 2"></button>
+                        <button class="indicator" data-slide="2" aria-label="Go to slide 3"></button>
+                        <button class="indicator" data-slide="3" aria-label="Go to slide 4"></button>
                     </div>
                 </div>
             </div>
