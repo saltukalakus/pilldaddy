@@ -188,7 +188,7 @@ header {
 /* Carousel Styles */
 .hero-image {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     animation: fadeInUp 0.8s ease-out 0.6s both;
 }
 
@@ -548,6 +548,7 @@ header {
     
     .hero-image {
         margin-top: 40px;
+        justify-content: center;
     }
     
     .nav-links {
@@ -617,6 +618,26 @@ header {
     
     .btn {
         width: 100%;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 24px;
+        text-align: center;
+    }
+    
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        justify-content: center;
+    }
+    
+    .footer-center {
+        order: 2;
+    }
+    
+    .footer-right {
+        order: 3;
     }
 }
 
