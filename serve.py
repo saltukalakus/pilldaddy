@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple HTTP server for local development of PillReminder website.
+Simple HTTP server for local development of PillDaddy website.
 Usage: python serve.py [port]
 Default port: 8000
 """
@@ -41,7 +41,7 @@ Handler = CustomHTTPRequestHandler
 
 try:
     with socketserver.TCPServer(("", PORT), Handler) as httpd:
-        print(f"🚀 PillReminder local server running at:")
+        print(f"🚀 PillDaddy local server running at:")
         print(f"   http://localhost:{PORT}")
         print(f"   http://127.0.0.1:{PORT}")
         print(f"\n📄 Available pages:")
